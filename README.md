@@ -4,7 +4,7 @@ Title: Simulate a password validation program in JavaScript <br>
 Type: Individual Assessment <br>
 Score: (15 points) <br>
 
-# Personal Information
+## Personal Information
 > Algie Lloyd Niño A. Valles <br>
 > BS Computer Science <br>
 > CMSC 100 - U2L
