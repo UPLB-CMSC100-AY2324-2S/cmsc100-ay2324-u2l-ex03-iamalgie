@@ -3,9 +3,9 @@
 // Exercise 03 - JavaScript Basics (Part 1)
 
 // Placeholder for the paswword and username
-const password1 = "pass1";
-const password2 = "pass1";
-const username = "user1";
+const password1 = "Password1";
+const password2 = "Password1";
+const username = "Algie Valles";
 
 // Function for the password validation
 function validatePassword(password1, password2) {
@@ -45,7 +45,11 @@ function validatePassword(password1, password2) {
 }
 
 function reversePassword(password) {
-    return password.split("").reverse().join("");
+    var reversed = "";
+    for (var i = password.length - 1; i >= 0; i--) {
+        reversed += password[i];
+    }
+    return reversed;
 }
 
 function storePassword(username, password1, password2) {
