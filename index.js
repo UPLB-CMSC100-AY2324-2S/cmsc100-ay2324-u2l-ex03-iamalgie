@@ -37,22 +37,8 @@ function validatePassword(password1, password2) {
         }
         if (hasUpperCase && hasLowerCase && hasNumber) {
             return true;
-        } else if (hasUpperCase == false && hasLowerCase == false && hasNumber == true) {
-            console.log("Invalid Password!");
-            return false;
-        } else if (hasUpperCase == false && hasLowerCase == true && hasNumber == false) {
-            console.log("Invalid Password!");
-            return false;
-        } else if (hasUpperCase == false && hasLowerCase == true && hasNumber == true) {
-            console.log("Invalid Password!");
-            return false;
-        } else if (hasUpperCase == true && hasLowerCase == false && hasNumber == false) {
-            console.log("Invalid Password!");
-            return false;
-        } else if (hasUpperCase == true && hasLowerCase == true && hasNumber == false) {
-            console.log("Invalid Password!");
-            return false;
         } else {
+            console.log("Invalid Password!");
             return false;
         }
     }
